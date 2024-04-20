@@ -1,0 +1,21 @@
+# taylor-lyrics.yml
+name: taylor-lyrics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - jupyterlab
+  - spacy
+  - seaborn
+  - matplotlib
+  - pip
+  - pip:
+    - ipykernel
+    - lyricsgenius
+    - spotipy
+    - rauth
+    - lxml
+    - python-dotenv
+    - nltk
